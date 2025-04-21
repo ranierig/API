@@ -1,5 +1,5 @@
 package com.GitHubAPI.GitHubAPI.Dto;
 
-public class DtoGitHubUsers {
-    
-}
+public record DtoGitHubUsers(long id,
+                             String login,
+                             String url) { }
