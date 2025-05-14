@@ -27,6 +27,6 @@ public class GitHubApiClient {
                 .toUriString();
 
         GitHubUsersDTO[] users = restTemplate.getForObject(url, GitHubUsersDTO[].class);
-        return users != null ? Arrays.asList(users) : List.of();
+        return Arrays.asList(users);
     }
 }

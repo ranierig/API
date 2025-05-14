@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.GitHubAPI</groupId>
-	<artifactId>GitHubAPI</artifactId>
+	<artifactId>githubapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>GitHubAPI</name>
 	<description>Demo project for Spring Boot</description>

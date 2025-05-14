@@ -9,9 +9,9 @@ import org.springframework.web.client.RestTemplate;
 
 public class GitHubApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(GitHubApiApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(GitHubApiApplication.class, args);
+    }
 
     @Bean
     public RestTemplate restTemplate() {

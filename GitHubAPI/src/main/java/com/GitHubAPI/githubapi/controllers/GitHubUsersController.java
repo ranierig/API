@@ -1,4 +1,5 @@
 package com.githubapi.githubapi.controllers;
+
 import com.githubapi.githubapi.dto.GitHubUsersDTO;
 import com.githubapi.githubapi.service.GitHubUserService;
 import org.springframework.web.bind.annotation.GetMapping;
