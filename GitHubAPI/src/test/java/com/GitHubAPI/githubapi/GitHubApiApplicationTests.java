@@ -1,4 +1,4 @@
-package com.GitHubAPI.GitHubAPI;
+package com.GitHubAPI.githubapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
