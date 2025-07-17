@@ -17,11 +17,14 @@ public class GitHubUsersController {
     private final GitHubUserService gitHubUserService;
 
     public GitHubUsersController(GitHubUserService gitHubUserService) {
+
         this.gitHubUserService = gitHubUserService;
+
     }
 
     @GetMapping //("/users")
     public List<GitHubUsersDTO> getUsers(@RequestParam long since) {
-        return gitHubUserService.fetchUsers(since);
+    return gitHubUserService.fetchUsers(since);
+
     }
 }

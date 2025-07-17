@@ -63,5 +63,5 @@ Faz a requisição HTTP externa usando RestTemplate.
 
 >> DTO
 É um objeto de transferência de dados que representa o que você recebe da API do GitHub.
-O JSON retornado pela API é mapeado automaticamente nesses campos.
-As anotações @JsonProperty servem para mapear nomes diferentes no JSON (por exemplo, avatar_url → avatarUrl).
+* O JSON retornado pela API é mapeado automaticamente nesses campos.
+* As anotações @JsonProperty servem para mapear nomes diferentes no JSON (por exemplo, avatar_url → avatarUrl).
