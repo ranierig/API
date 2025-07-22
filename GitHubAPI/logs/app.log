@@ -609,3 +609,335 @@ java.lang.ArrayIndexOutOfBoundsException: Index 30 out of bounds for length 30
 2025-07-21 01:23:36 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 2.568 seconds (process running for 2.955)
 2025-07-21 01:24:32 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2025-07-21 01:24:32 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-21 01:29:12 [main] INFO  c.g.githubapi.GitHubApiApplication - Starting GitHubApiApplication using Java 24.0.1 with PID 6108 (C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi\target\classes started by Ranie in C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi)
+2025-07-21 01:29:12 [main] INFO  c.g.githubapi.GitHubApiApplication - The following 1 profile is active: "prd"
+2025-07-21 01:29:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-07-21 01:29:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-21 01:29:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-21 01:29:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-21 01:29:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1130 ms
+2025-07-21 01:29:13 [main] INFO  c.g.g.c.GitHubApiConfiguration - Executando o WebClient.
+2025-07-21 01:29:13 [main] INFO  c.g.g.c.GitHubUsersController - Executando Controller.
+2025-07-21 01:29:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-07-21 01:29:14 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 2.408 seconds (process running for 2.771)
+2025-07-21 01:29:19 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21 01:29:19 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-21 01:29:19 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-21 01:29:20 [http-nio-8083-exec-1] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 47.
+2025-07-21 01:29:20 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 01:29:20 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 01:29:20 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 91.
+2025-07-21 01:29:30 [http-nio-8083-exec-3] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 1.
+2025-07-21 01:29:30 [http-nio-8083-exec-3] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 01:29:30 [http-nio-8083-exec-3] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 01:29:30 [http-nio-8083-exec-3] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 46.
+2025-07-21 01:29:35 [http-nio-8083-exec-2] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 0.
+2025-07-21 01:29:35 [http-nio-8083-exec-2] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 01:29:35 [http-nio-8083-exec-2] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 01:29:35 [http-nio-8083-exec-2] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 46.
+2025-07-21 01:29:41 [http-nio-8083-exec-5] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 100000000001.
+2025-07-21 01:29:41 [http-nio-8083-exec-5] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 01:29:41 [http-nio-8083-exec-5] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 0 usuários.
+2025-07-21 01:30:18 [http-nio-8083-exec-6] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: -9.
+2025-07-21 01:30:18 [http-nio-8083-exec-6] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 01:30:19 [http-nio-8083-exec-6] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 01:30:19 [http-nio-8083-exec-6] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 46.
+2025-07-21 01:30:24 [http-nio-8083-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'since': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "b"]
+2025-07-21 01:30:40 [http-nio-8083-exec-8] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 1.
+2025-07-21 01:30:40 [http-nio-8083-exec-8] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 01:30:40 [http-nio-8083-exec-8] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 01:30:40 [http-nio-8083-exec-8] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 46.
+2025-07-21 01:36:43 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 01:36:43 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-21 22:15:45 [main] INFO  c.g.githubapi.GitHubApiApplication - Starting GitHubApiApplication using Java 24.0.1 with PID 12264 (C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi\target\classes started by Ranie in C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi)
+2025-07-21 22:15:45 [main] INFO  c.g.githubapi.GitHubApiApplication - The following 1 profile is active: "prd"
+2025-07-21 22:15:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-07-21 22:15:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-21 22:15:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-21 22:15:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-21 22:15:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2436 ms
+2025-07-21 22:15:48 [main] INFO  c.g.g.c.GitHubApiConfiguration - Executando o WebClient.
+2025-07-21 22:15:48 [main] INFO  c.g.g.c.GitHubUsersController - Executando Controller.
+2025-07-21 22:15:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-07-21 22:15:49 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 4.961 seconds (process running for 5.776)
+2025-07-21 22:18:18 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21 22:18:18 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:18:18 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-21 22:18:18 [http-nio-8083-exec-1] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 1.
+2025-07-21 22:18:18 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:18:20 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 22:18:20 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 46.
+2025-07-21 22:19:16 [http-nio-8083-exec-7] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 10000000000000001.
+2025-07-21 22:19:16 [http-nio-8083-exec-7] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:19:16 [http-nio-8083-exec-7] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 0 usuários.
+2025-07-21 22:20:06 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 22:20:06 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-21 22:20:14 [main] INFO  c.g.githubapi.GitHubApiApplication - Starting GitHubApiApplication using Java 24.0.1 with PID 23608 (C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi\target\classes started by Ranie in C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi)
+2025-07-21 22:20:14 [main] INFO  c.g.githubapi.GitHubApiApplication - The following 1 profile is active: "prd"
+2025-07-21 22:20:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-07-21 22:20:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-21 22:20:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-21 22:20:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-21 22:20:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1968 ms
+2025-07-21 22:20:16 [main] INFO  c.g.g.c.GitHubApiConfiguration - Executando o WebClient.
+2025-07-21 22:20:16 [main] INFO  c.g.g.c.GitHubUsersController - Executando Controller.
+2025-07-21 22:20:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-07-21 22:20:17 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 3.994 seconds (process running for 4.6)
+2025-07-21 22:20:23 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21 22:20:23 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:20:23 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-21 22:20:23 [http-nio-8083-exec-1] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 2.
+2025-07-21 22:20:23 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:20:36 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 22:20:36 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-21 22:20:41 [main] INFO  c.g.githubapi.GitHubApiApplication - Starting GitHubApiApplication using Java 24.0.1 with PID 23792 (C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi\target\classes started by Ranie in C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi)
+2025-07-21 22:20:41 [main] INFO  c.g.githubapi.GitHubApiApplication - The following 1 profile is active: "prd"
+2025-07-21 22:20:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-07-21 22:20:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-21 22:20:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-21 22:20:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-21 22:20:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2028 ms
+2025-07-21 22:20:43 [main] INFO  c.g.g.c.GitHubApiConfiguration - Executando o WebClient.
+2025-07-21 22:20:43 [main] INFO  c.g.g.c.GitHubUsersController - Executando Controller.
+2025-07-21 22:20:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-07-21 22:20:44 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 4.125 seconds (process running for 4.599)
+2025-07-21 22:20:45 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21 22:20:45 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:20:45 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-21 22:20:45 [http-nio-8083-exec-2] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 2.
+2025-07-21 22:20:45 [http-nio-8083-exec-2] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:20:46 [http-nio-8083-exec-2] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 22:20:46 [http-nio-8083-exec-2] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 47.
+2025-07-21 22:21:02 [http-nio-8083-exec-5] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 2.
+2025-07-21 22:21:02 [http-nio-8083-exec-5] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:21:02 [http-nio-8083-exec-5] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 22:21:02 [http-nio-8083-exec-5] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 47.
+2025-07-21 22:26:39 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 22:26:39 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-21 22:26:47 [main] INFO  c.g.githubapi.GitHubApiApplication - Starting GitHubApiApplication using Java 24.0.1 with PID 17980 (C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi\target\classes started by Ranie in C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi)
+2025-07-21 22:26:47 [main] INFO  c.g.githubapi.GitHubApiApplication - The following 1 profile is active: "prd"
+2025-07-21 22:26:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-07-21 22:26:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-21 22:26:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-21 22:26:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-21 22:26:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1533 ms
+2025-07-21 22:26:49 [main] INFO  c.g.g.c.GitHubApiConfiguration - Executando o WebClient.
+2025-07-21 22:26:49 [main] INFO  c.g.g.c.GitHubUsersController - Executando Controller.
+2025-07-21 22:26:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-07-21 22:26:49 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 3.544 seconds (process running for 3.997)
+2025-07-21 22:27:05 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21 22:27:05 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:27:05 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-21 22:27:05 [http-nio-8083-exec-1] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 2.
+2025-07-21 22:27:05 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:27:07 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 22:27:07 [http-nio-8083-exec-1] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 47.
+2025-07-21 22:32:45 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 22:32:45 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-21 22:32:52 [main] INFO  c.g.githubapi.GitHubApiApplication - Starting GitHubApiApplication using Java 24.0.1 with PID 10604 (C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi\target\classes started by Ranie in C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\UDEMY\dicas para entrevistas\API\githubapi)
+2025-07-21 22:32:52 [main] INFO  c.g.githubapi.GitHubApiApplication - The following 1 profile is active: "prd"
+2025-07-21 22:32:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2025-07-21 22:32:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-21 22:32:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-21 22:32:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-21 22:32:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1682 ms
+2025-07-21 22:32:54 [main] INFO  c.g.g.c.GitHubApiConfiguration - Executando o WebClient.
+2025-07-21 22:32:54 [main] INFO  c.g.g.c.GitHubUsersController - Executando Controller.
+2025-07-21 22:32:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2025-07-21 22:32:55 [main] INFO  c.g.githubapi.GitHubApiApplication - Started GitHubApiApplication in 3.487 seconds (process running for 3.992)
+2025-07-21 22:32:59 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21 22:32:59 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:32:59 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-21 22:33:00 [http-nio-8083-exec-1] ERROR c.g.g.e.GitHubApiExceptionsGlobal - Erro inesperado na requisição /api/github/users: Method parameter 'since': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "a"
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'since': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "a"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:301)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.lang.NumberFormatException: For input string: "a"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:594)
+	at java.base/java.lang.Long.valueOf(Long.java:950)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:204)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:412)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:161)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:80)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:870)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:293)
+	... 48 common frames omitted
+2025-07-21 22:33:29 [http-nio-8083-exec-4] ERROR c.g.g.e.GitHubApiExceptionsGlobal - Erro inesperado na requisição /api/github/users: Method parameter 'since': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "11111111111111111111111111111111111"
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'since': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "11111111111111111111111111111111111"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:301)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.lang.NumberFormatException: For input string: "11111111111111111111111111111111111"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:594)
+	at java.base/java.lang.Long.valueOf(Long.java:950)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:204)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:412)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:161)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:80)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:870)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:293)
+	... 48 common frames omitted
+2025-07-21 22:33:36 [http-nio-8083-exec-6] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 11111111112.
+2025-07-21 22:33:36 [http-nio-8083-exec-6] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:33:37 [http-nio-8083-exec-6] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 0 usuários.
+2025-07-21 22:33:37 [http-nio-8083-exec-6] ERROR c.g.g.e.GitHubApiExceptionsGlobal - Erro inesperado na requisição /api/github/users: Index -1 out of bounds for length 0
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at java.base/java.util.Arrays$ArrayList.get(Arrays.java:4224)
+	at com.githubapi.githubapi.client.GitHubApiClient.getUsers(GitHubApiClient.java:39)
+	at com.githubapi.githubapi.service.GitHubUserService.fetchUsers(GitHubUserService.java:25)
+	at com.githubapi.githubapi.controllers.GitHubUsersController.getUsers(GitHubUsersController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025-07-21 22:34:22 [http-nio-8083-exec-8] INFO  c.g.g.service.GitHubUserService - Executando Serviço usuário inicial: 111112.
+2025-07-21 22:34:22 [http-nio-8083-exec-8] INFO  c.g.githubapi.client.GitHubApiClient - Criando Lista.
+2025-07-21 22:34:23 [http-nio-8083-exec-8] INFO  c.g.githubapi.client.GitHubApiClient - Quantidade retornada: 30 usuários.
+2025-07-21 22:34:23 [http-nio-8083-exec-8] INFO  c.g.githubapi.client.GitHubApiClient - Último usuário: 111146.
+2025-07-21 22:35:02 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 22:35:02 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete

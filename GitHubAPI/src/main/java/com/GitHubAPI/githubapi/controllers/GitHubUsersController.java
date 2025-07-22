@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.List;
 
 @Slf4j
@@ -14,13 +15,15 @@ import java.util.List;
 @RequestMapping("${mapping.url}")
 public class GitHubUsersController {
     private final GitHubUserService gitHubUserService;
+
     public GitHubUsersController(GitHubUserService gitHubUserService) {
         log.info("Executando Controller.");
         this.gitHubUserService = gitHubUserService;
     }
+
     @GetMapping //("/users")
     public List<GitHubUsersDTO> getUsers(@RequestParam long since) {
-    return gitHubUserService.fetchUsers(since);
+        return gitHubUserService.fetchUsers(since);
 
     }
 }
