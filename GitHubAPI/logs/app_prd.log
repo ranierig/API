@@ -81,3 +81,5 @@ Caused by: java.lang.NumberFormatException: For input string: "111111a"
 	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:870)
 	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:293)
 	... 48 common frames omitted
+2025-07-21 23:02:42 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 23:02:42 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
