@@ -1,0 +1,39 @@
+# docker exec -it apt_mysql mysql -u root -p
+version: '3.5'
+services:
+  apt_mysql:
+    container_name: apt_mysql
+    image: mysql
+    restart: always
+    environment:
+      DATABASE_HOST: apt_mysql
+      MYSQL_ROOT_PASSWORD: ${MYSQLDB_ROOT_PASSWORD}
+    env_file:
+      - .env
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3306:3306"
+    networks:
+      - spring-boot-mysql-network
+    expose:
+      - "3306"
+  adminer:
+    image: adminer
+    networks:
+      - spring-boot-mysql-network
+    restart: always
+    ports:
+      - "9000:8080"
+networks:
+  spring-boot-mysql-network:
+    external: true
+    name: mars
+    driver: bridge
+    ipam:
+     config:
+       - subnet:  172.21.192.0/24
+         gateway:  172.21.192.1
+         aux_addresses:
+          mysql:  172.21.192.40
+          apigw-tomcat:  172.21.192.41
