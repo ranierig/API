@@ -22,3 +22,46 @@ This endpoint must return a list with all user repositries
 
 github.com/devsuperior/demo-openfeign
 https://devsuperior.com.br/ijs-udemy-531282
+
+-------------------------------------------------------------------------
+
+
+[Usuário] → (GET /api/github/users?since=0)
+    ↓
+[Controller] GitHubUsersController
+    ↓
+[Service] GitHubUserService
+    ↓
+[Client] GitHubApiClient
+    ↓
+[API Externa] https://api.github.com/users?since=0
+    ↓
+[Retorna JSON de usuários] → Converte para DTO → Volta em forma de Lista
+    ↓
+[Retorno Final] → JSON com a lista de usuários
+
+-------------------------------------------------------------------------
+
+>> Controller
+Controla as requisições HTTP.
+* Quando alguém acessa /api/github/users?since=0, este método é chamado.
+* O since é extraído da URL.
+* O controller delega a chamada ao GitHubUserService.
+
+>> Service
+Contém a lógica de negócio (aqui, bem simples).
+* Recebe o since.
+* Chama o cliente HTTP (GitHubApiClient) para buscar os dados da API do GitHub.
+* Retorna uma lista de usuários no formato GitHubUsersDTO.
+
+>> Client 
+Faz a requisição HTTP externa usando RestTemplate.
+* Monta a URL: https://api.github.com/users?since=X.
+* Usa RestTemplate para fazer um GET.
+* Converte o array JSON em objetos Java (GitHubUsersDTO[]).
+* Retorna como List.
+
+>> DTO
+É um objeto de transferência de dados que representa o que você recebe da API do GitHub.
+* O JSON retornado pela API é mapeado automaticamente nesses campos.
+* As anotações @JsonProperty servem para mapear nomes diferentes no JSON (por exemplo, avatar_url → avatarUrl).
