@@ -1,4 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
+using Serilog;
+var builder = WebApplication.CreateBuilder(args); // Cria primeiro
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
+
+
 
 // Add services to the container.
 
@@ -23,3 +33,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+

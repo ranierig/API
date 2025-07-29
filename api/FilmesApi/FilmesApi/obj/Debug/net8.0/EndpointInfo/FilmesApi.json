@@ -5,41 +5,33 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
-      "get": {
+    "/filmes": {
+      "post": {
         "tags": [
-          "WeatherForecast"
+          "Filme"
         ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Filme"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Filme"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Filme"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -47,25 +39,28 @@
   },
   "components": {
     "schemas": {
-      "WeatherForecast": {
+      "Filme": {
+        "required": [
+          "genero",
+          "tempo",
+          "titulo"
+        ],
         "type": "object",
         "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
+          "titulo": {
+            "minLength": 1,
+            "type": "string"
           },
-          "temperatureC": {
+          "genero": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "tempo": {
+            "maximum": 600,
+            "minimum": 70,
             "type": "integer",
             "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
