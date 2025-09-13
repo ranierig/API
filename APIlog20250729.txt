@@ -1,0 +1,49 @@
+[08:07:22 INF] Now listening on: "https://localhost:7128"
+[08:07:22 INF] Now listening on: "http://localhost:5003"
+[08:07:22 INF] Application started. Press Ctrl+C to shut down.
+[08:07:22 INF] Hosting environment: "Development"
+[08:07:22 INF] Content root path: "C:\Users\Ranie\OneDrive\Estudos\SISTEMAS\API\dicas para entrevistas\API\api\FilmesApi\FilmesApi"
+[08:07:26 INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - "application/json" 73
+[08:07:26 INF] Executing endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:26 INF] Route matched with "{action = \"AdicionaFilme\", controller = \"Filme\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AdicionaFilme(FilmesApi.Models.Filme)" on controller "FilmesApi.Controllers.FilmeController" ("FilmesApi").
+[08:07:26 INF] Titulo: The adventures
+[08:07:26 INF] Tempo:  80
+[08:07:26 INF] Genero: Ação
+[08:07:26 INF] Executing "OkObjectResult", writing value of type '"System.Int32"'.
+[08:07:26 INF] Executed action "FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)" in 126.0821ms
+[08:07:26 INF] Executed endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:26 INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - 200 null "application/json; charset=utf-8" 282.8541ms
+[08:07:37 INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - "application/json" 67
+[08:07:37 INF] Executing endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:37 INF] Route matched with "{action = \"AdicionaFilme\", controller = \"Filme\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AdicionaFilme(FilmesApi.Models.Filme)" on controller "FilmesApi.Controllers.FilmeController" ("FilmesApi").
+[08:07:37 INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[08:07:37 INF] Executed action "FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)" in 39.634ms
+[08:07:37 INF] Executed endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:37 INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - 400 null "application/problem+json; charset=utf-8" 42.5041ms
+[08:07:48 INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - "application/json" 73
+[08:07:48 INF] Executing endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:48 INF] Route matched with "{action = \"AdicionaFilme\", controller = \"Filme\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AdicionaFilme(FilmesApi.Models.Filme)" on controller "FilmesApi.Controllers.FilmeController" ("FilmesApi").
+[08:07:48 INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[08:07:48 INF] Executed action "FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)" in 1.6349ms
+[08:07:48 INF] Executed endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:48 INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - 400 null "application/problem+json; charset=utf-8" 4.6025ms
+[08:07:54 INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - "application/json" 73
+[08:07:54 INF] Executing endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:54 INF] Route matched with "{action = \"AdicionaFilme\", controller = \"Filme\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AdicionaFilme(FilmesApi.Models.Filme)" on controller "FilmesApi.Controllers.FilmeController" ("FilmesApi").
+[08:07:54 INF] Titulo: The adventures
+[08:07:54 INF] Tempo:  80
+[08:07:54 INF] Genero: Ação
+[08:07:54 INF] Executing "OkObjectResult", writing value of type '"System.Int32"'.
+[08:07:54 INF] Executed action "FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)" in 0.9943ms
+[08:07:54 INF] Executed endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:54 INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - 200 null "application/json; charset=utf-8" 2.1984ms
+[08:07:56 INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - "application/json" 73
+[08:07:56 INF] Executing endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:56 INF] Route matched with "{action = \"AdicionaFilme\", controller = \"Filme\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AdicionaFilme(FilmesApi.Models.Filme)" on controller "FilmesApi.Controllers.FilmeController" ("FilmesApi").
+[08:07:56 INF] Titulo: The adventures
+[08:07:56 INF] Tempo:  80
+[08:07:56 INF] Genero: Ação
+[08:07:56 INF] Executing "OkObjectResult", writing value of type '"System.Int32"'.
+[08:07:56 INF] Executed action "FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)" in 1.1594ms
+[08:07:56 INF] Executed endpoint '"FilmesApi.Controllers.FilmeController.AdicionaFilme (FilmesApi)"'
+[08:07:56 INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7128""""/filmes""" - 200 null "application/json; charset=utf-8" 2.0321ms

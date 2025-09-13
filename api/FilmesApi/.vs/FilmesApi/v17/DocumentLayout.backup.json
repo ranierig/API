@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -19,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|c:\\users\\ranie\\onedrive\\estudos\\sistemas\\api\\dicas para entrevistas\\api\\api\\filmesapi\\filmesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ADC48E9D-F7B4-4094-A321-A002B0E1679D}|FilmesApi\\FilmesApi.csproj|solutionrelative:filmesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 290,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Filme.cs",
-              "DocumentMoniker": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Models\\Filme.cs",
-              "RelativeDocumentMoniker": "FilmesApi\\Models\\Filme.cs",
-              "ToolTip": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Models\\Filme.cs",
-              "RelativeToolTip": "FilmesApi\\Models\\Filme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:01:02.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FilmesApi\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "FilmesApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-27T14:24:51.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Filme.cs",
+              "DocumentMoniker": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Models\\Filme.cs",
+              "RelativeDocumentMoniker": "FilmesApi\\Models\\Filme.cs",
+              "ToolTip": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Models\\Filme.cs",
+              "RelativeToolTip": "FilmesApi\\Models\\Filme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:01:02.04Z",
               "EditorCaption": ""
             },
             {
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "FilmesApi\\appsettings.json",
               "ToolTip": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\appsettings.json",
               "RelativeToolTip": "FilmesApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-27T14:24:47.31Z",
               "EditorCaption": ""
@@ -79,20 +79,20 @@
               "RelativeDocumentMoniker": "FilmesApi\\Program.cs",
               "ToolTip": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Program.cs",
               "RelativeToolTip": "FilmesApi\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:06:58.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FilmeController.cs",
               "DocumentMoniker": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Controllers\\FilmeController.cs",
               "RelativeDocumentMoniker": "FilmesApi\\Controllers\\FilmeController.cs",
               "ToolTip": "C:\\Users\\Ranie\\OneDrive\\Estudos\\SISTEMAS\\API\\dicas para entrevistas\\API\\api\\FilmesApi\\FilmesApi\\Controllers\\FilmeController.cs",
               "RelativeToolTip": "FilmesApi\\Controllers\\FilmeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T11:07:16.912Z",
               "EditorCaption": ""

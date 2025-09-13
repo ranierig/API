@@ -3,6 +3,7 @@
 namespace FilmesApi.Models; 
 public class Filme {
     [Required(ErrorMessage = "Título é obrigatório.")]
+    public int IdFilme { get; set; }
     public string Titulo { get; set; }
     [Required(ErrorMessage = "Genero é obrigatório.")]
     [MaxLength(50, ErrorMessage = "Tamanho máximo do gênero é de 50 caracteres.")]
